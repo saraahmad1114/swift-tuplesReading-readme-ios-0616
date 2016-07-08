@@ -5,7 +5,7 @@ func downloadImage(atURL url: String) -> (Bool, String) {
     let error = "Image no longer exists"
     return (false, error)
 }
-
+//tuples are very interesting and very similar to dictionaries 
 let result = downloadImage(atURL: "http://example.com/image.png")
 result.0
 result.1
